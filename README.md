@@ -1,26 +1,41 @@
-Jaringan Pintar
+# Jaringan Pintar
 
-Aplikasi Android pembelajaran jaringan komputer untuk siswa SMK jurusan TKJ (Teknik Komputer dan Jaringan) — menyajikan materi, video pembelajaran, kuis interaktif, dan studi kasus untuk membantu siswa memahami konsep jaringan komputer secara mendalam.
+An Android learning app for vocational high school (SMK) students majoring in Computer and Network Engineering (TKJ) — providing learning materials, instructional videos, interactive quizzes, and case studies to help students understand computer networking concepts in depth.
 
-✨ Fitur
-📖 Materi Pembelajaran — Rangkuman konsep jaringan komputer, termasuk topik seperti fiber optik, topologi jaringan, dan perangkat keras jaringan
-🎥 Video Pembelajaran — Video interaktif untuk memperjelas konsep yang sulit dipahami lewat teks saja
-📝 Kuis — Uji pemahaman siswa setelah mempelajari setiap materi
-💡 Studi Kasus — Contoh kasus nyata untuk melatih kemampuan analisis dan pemecahan masalah jaringan
-🛠️ Tech Stack
-Bahasa: Kotlin
-Platform: Android
-🚀 Instalasi & Menjalankan Project
-Clone repository ini:
-bash
+## ✨ Features
+
+- 📖 **Learning Materials** — Concise summaries of computer networking concepts, including topics such as fiber optics, network topology, and networking hardware
+- 🎥 **Instructional Videos** — Interactive videos to clarify concepts that are hard to grasp through text alone
+- 📝 **Quizzes** — Test students' understanding after completing each topic
+- 💡 **Case Studies** — Real-world scenarios to practice network analysis and problem-solving skills
+
+## 🛠️ Tech Stack
+
+- **Language:** Kotlin
+- **Platform:** Android
+
+## 🚀 Installation & Running the Project
+
+1. Clone this repository:
+   ```bash
    git clone https://github.com/mhakbar24/Jaringan_Pintar.git
-Buka project menggunakan Android Studio
-Tunggu proses Gradle sync selesai
-Jalankan aplikasi menggunakan emulator atau perangkat Android fisik
-📁 Struktur Project
-Jaringan_Pintar/
-├── app/                # Source code utama aplikasi
-└── Gradle Scripts/     # Konfigurasi build project
-🤝 Kontribusi
+   ```
+2. Open the project using **Android Studio**
+3. Wait for the Gradle sync to finish
+4. Run the app on an emulator or a physical Android device
 
-Kontribusi, saran, dan laporan bug sangat diterima. Silakan buka issue atau ajukan pull request.
+## 📁 Project Structure
+
+```
+Jaringan_Pintar/
+├── app/                # Main application source code
+└── gradle/             # Project build configuration
+```
+
+## 🤝 Contributing
+
+Contributions, suggestions, and bug reports are welcome. Feel free to open an issue or submit a pull request.
+
+## 📄 License
+
+Not yet specified.
