@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainmenu"
+    android:background="@drawable/gradient_main"
+    tools:context=".MainmenuActivity">
+
+    <ImageView
+        android:id="@+id/logo_unimed_menu"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/unimed"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/btn_sound_toggle"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/logo_unimed_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/logo_unimed_menu"
+        app:tint="#FFFFFF" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="24dp"
+        android:clipToPadding="false"
+        android:paddingBottom="40dp"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo_unimed_menu">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="24dp">
+
+            <!-- Card Home -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/card_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/bg_card_modern"
+                android:elevation="4dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/icon_home"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/bg_icon_circle"
+                    android:padding="9dp"
+                    android:src="@drawable/ic_home"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/title_home"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="Home"
+                    android:textColor="#263238"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/desc_home"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/icon_home"
+                    app:layout_constraintTop_toTopOf="@+id/icon_home" />
+
+                <TextView
+                    android:id="@+id/desc_home"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Kembali ke halaman utama"
+                    android:textColor="#546E7A"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/icon_home"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/title_home"
+                    app:layout_constraintTop_toBottomOf="@+id/title_home" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- Card Tujuan -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/card_tujuan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/bg_card_modern"
+                android:elevation="4dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/icon_tujuan"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/bg_icon_circle"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_alur"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/title_tujuan"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="Tujuan Pembelajaran"
+                    android:textColor="#263238"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/desc_tujuan"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/icon_tujuan"
+                    app:layout_constraintTop_toTopOf="@+id/icon_tujuan" />
+
+                <TextView
+                    android:id="@+id/desc_tujuan"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Capaian kompetensi siswa"
+                    android:textColor="#546E7A"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/icon_tujuan"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/title_tujuan"
+                    app:layout_constraintTop_toBottomOf="@+id/title_tujuan" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- Card Materi -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/card_materi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/bg_card_modern"
+                android:elevation="4dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/icon_materi"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/bg_icon_circle"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_book"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/title_materi"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="Materi"
+                    android:textColor="#263238"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/desc_materi"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/icon_materi"
+                    app:layout_constraintTop_toTopOf="@+id/icon_materi" />
+
+                <TextView
+                    android:id="@+id/desc_materi"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Modul dasar teknik jaringan"
+                    android:textColor="#546E7A"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/icon_materi"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/title_materi"
+                    app:layout_constraintTop_toBottomOf="@+id/title_materi" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- Card Video -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/card_video"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/bg_card_modern"
+                android:elevation="4dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/icon_video"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/bg_icon_circle"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_videos"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/title_video"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="Video Pembelajaran"
+                    android:textColor="#263238"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/desc_video"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/icon_video"
+                    app:layout_constraintTop_toTopOf="@+id/icon_video" />
+
+                <TextView
+                    android:id="@+id/desc_video"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Visualisasi &amp; praktek jaringan"
+                    android:textColor="#546E7A"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/icon_video"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/title_video"
+                    app:layout_constraintTop_toBottomOf="@+id/title_video" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- Card Quiz -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/card_quiz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/bg_card_modern"
+                android:elevation="4dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/icon_quiz"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/bg_icon_circle"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_quiz"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/title_quiz"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="Quiz"
+                    android:textColor="#263238"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/desc_quiz"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/icon_quiz"
+                    app:layout_constraintTop_toTopOf="@+id/icon_quiz" />
+
+                <TextView
+                    android:id="@+id/desc_quiz"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Uji pemahaman teorimu"
+                    android:textColor="#546E7A"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/icon_quiz"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/title_quiz"
+                    app:layout_constraintTop_toBottomOf="@+id/title_quiz" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- Card Petunjuk -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/card_petunjuk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/bg_card_modern"
+                android:elevation="4dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/icon_petunjuk"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/bg_icon_circle"
+                    android:padding="12dp"
+                    android:src="@android:drawable/ic_menu_info_details"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="#0097A7" />
+
+                <TextView
+                    android:id="@+id/title_petunjuk"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="Petunjuk Pengguna"
+                    android:textColor="#263238"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/desc_petunjuk"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/icon_petunjuk"
+                    app:layout_constraintTop_toTopOf="@+id/icon_petunjuk" />
+
+                <TextView
+                    android:id="@+id/desc_petunjuk"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cara menggunakan aplikasi"
+                    android:textColor="#546E7A"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/icon_petunjuk"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/title_petunjuk"
+                    app:layout_constraintTop_toBottomOf="@+id/title_petunjuk" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- Card Profil -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/card_profil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:background="@drawable/bg_card_modern"
+                android:elevation="4dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/icon_profil"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/bg_icon_circle"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_profile"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/title_profil"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="Profil Pengembang"
+                    android:textColor="#263238"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/desc_profil"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/icon_profil"
+                    app:layout_constraintTop_toTopOf="@+id/icon_profil" />
+
+                <TextView
+                    android:id="@+id/desc_profil"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Informasi Pengembang Aplikasi"
+                    android:textColor="#546E7A"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/icon_profil"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/title_profil"
+                    app:layout_constraintTop_toBottomOf="@+id/title_profil" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

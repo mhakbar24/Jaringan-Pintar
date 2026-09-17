@@ -1,0 +1,7 @@
+
+*.apk
+app/release/
+*.mp4
+.gradle/
+build/
+.idea/

@@ -1,0 +1,495 @@
+<resources>
+    <string name="app_name">Jaringan Pintar</string>
+    <string name="university_name">UNIVERSITAS NEGERI MEDAN</string>
+    <string name="faculty_name">FAKULTAS TEKNIK</string>
+    <string name="main_title">TEKNIK JARINGAN KOMPUTER \u0026 TELEKOMUNIKASI</string>
+    <string name="button_start">START</string>
+    <string name="card_label">MODUL PENGANTAR</string>
+    <string name="card_title">Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi</string>
+    <string name="card_desc">Memahami konsep dasar jaringan, topologi, dan infrastruktur.</string>
+
+    <string name="menu_logo_desc">Logo UNIMED</string>
+    <string name="menu_sound_toggle">Tombol suara</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_tujuan">Tujuan Pembelajaran</string>
+    <string name="menu_materi">Materi</string>
+    <string name="menu_video">Video Pembelajaran</string>
+    <string name="menu_quiz">Quiz</string>
+    <string name="menu_petunjuk">Petunjuk Pengguna</string>
+    <string name="menu_profil">Profil Pengguna</string>
+    <string name="menu_sound_on">Suara aktif</string>
+    <string name="menu_sound_off">Suara nonaktif</string>
+    <string name="menu_page_coming_soon">Halaman belum tersedia</string>
+    <string name="judul_halaman">Tujuan Pembelajaran</string>
+
+    <string name="capaian_pembelajaran_text">Pada akhir Fase E, peserta didik diharapkan mampu memahami perkembangan teknologi pada perangkat teknik jaringan komputer dan telekomunikasi, meliputi teknologi 5G, Microwave Link, IPv6, Teknologi Serat Optik, Internet of Things (IoT), Cloud Computing, Data Center dan Information Security, Serta memahami isu-isu implementasi teknologi jaringan dan telekkomunikasi terkini seperti keamanan informasi dan penetrasi internet.
+
+</string>
+
+    <string-array name="tujuan_pembelajaran_list">
+        <item>Memahami perkembangan teknologi jaringan 5G.</item>
+        <item>Memahami konsep Microwave Link pada jaringan telekomunikasi.</item>
+        <item>Memahami teknologi IP.</item>
+        <item>Memahami teknologi komunikasi menggunakan Fiber Optik.</item>
+        <item>Memahami konsep Internet Of Thing (IoT).</item>
+        <item>Memahami fungsi dan peran Data Center.</item>
+        <item>Memahami konsep Cloud Computing dan Information Security.</item>
+        <item>Memahami isu perkembangan teknologi jaringan seperti keamanan informasi dan penetrasi internet.</item>
+    </string-array>
+    <string name="title_materi_1">Apa itu Fiber Optik ?</string>
+
+    <string name="isi_materi_1"><![CDATA[
+    <b>1. FIBER OPTIK</b><br><br>
+    Fiber optik adalah jenis kabel yang terbuat dari serat kaca atau plastik sangat halus (lebih tipis dari rambut manusia) yang digunakan untuk mentransmisikan data dalam bentuk pulsa cahaya. Teknologi ini mampu mengirimkan informasi berkecepatan tinggi dengan jangkauan jarak jauh, sering digunakan sebagai tulang punggung (backbone) internet modern dan jaringan telekomunikasi, berbeda dengan kabel tembaga yang menggunakan sinyal listrik.<br><br>
+    Fiber optik digunakan untuk mengirim data dengan kecepatan tinggi dan jarak jauh. Teknologi ini banyak digunakan pada jaringan internet modern karena memiliki kualitas transmisi yang sangat baik. Fiber optik menjadi salah satu teknologi komunikasi modern yang sangat penting dalam perkembangan jaringan komputer dan telekomunikasi. Teknologi ini digunakan untuk mengirim informasi seperti: data internet, suara, video, dan komunikasi digital lainnya.<br><br><br>
+
+    <b>2. MEDIA TRANSMISI JARINGAN</b><br><br>
+    Media Transmisi adalah media atau jalur yang digunakan untuk mengirimkan data dari satu perangkat ke perangkat lainnya dalam suatu jaringan komputer. Media transmisi memiliki fungsi utama sebagai penghantar sinyal komunikasi agar perangkat jaringan dapat saling bertukar informasi.<br><br>
+
+    <b>Data dapat dikirim dalam bentuk:</b><br>
+    &#8226; Sinyal listrik<br>
+    &#8226; Gelombang radio<br>
+    &#8226; Cahaya<br><br>
+
+    <b>Dalam jaringan modern, media transmisi sangat penting karena mempengaruhi:</b><br>
+    &#8226; Kecepatan internet<br>
+    &#8226; Kualitas jaringan<br>
+    &#8226; Kestabilan komunikasi<br>
+    &#8226; Kapasitas pengiriman data<br><br>
+    Fiber optik menjadi salah satu media transmisi terbaik karena memiliki kemampuan transfer data yang sangat tinggi.<br><br><br>
+
+    <b>3. FIBER OPTIK SEBAGAI MEDIA TRANSMISI JARINGAN MODERN</b><br><br>
+    Fiber optik saat ini menjadi teknologi utama dalam jaringan modern karena mampu memenuhi kebutuhan komunikasi digital yang terus meningkat. Perkembangan internet, cloud computing, video streaming, game online, dan komunikasi digital menyebabkan kebutuhan transfer data menjadi semakin besar.<br><br>
+    Oleh karena itu dibutuhkan media transmisi yang: cepat, stabil, aman, dan memiliki kapasitas besar. Fiber optik mampu memenuhi kebutuhan tersebut karena memiliki: bandwidth besar, kecepatan tinggi, dan gangguan sinyal yang sangat kecil.
+    <br><br><b>4. SEJARAH KABEL FIBER OPTIK</b><br><br>
+    Fiber Optik pertama kali dikembangkan oleh sekelompok peneliti yaitu Robert Maurer, Donald Keck, dan Peter Schultz. Mereka berhasil menciptakan serat optik yang dikenal dengan nama Optical Waveguide Fibers.<br><br>
+    Teknologi tersebut mampu membawa informasi hingga 65.000 kali lebih banyak dibandingkan kabel tembaga. Informasi dikirim dalam bentuk gelombang cahaya yang dapat diterjemahkan kembali pada tujuan meskipun menempuh jarak ribuan kilometer. Perkembangan teknologi fiber optik membuka jalan bagi kemajuan sistem komunikasi modern. Awalnya fiber optik digunakan untuk layanan telepon jarak jauh, namun seiring perkembangan teknologi internet, fiber optik kini menjadi media utama dalam transmisi data dan komunikasi digital berkecepatan tinggi.<br><br>
+    Secara fisik, kabel fiber optik terbuat dari serat kaca yang sangat halus dan dilapisi plastik pelindung. Diameter seratnya sangat kecil, bahkan lebih tipis dibandingkan rambut manusia, yaitu sekitar 120 mikrometer.<br><br>
+    Berbeda dengan kabel berbahan tembaga, fiber optik memiliki ketahanan yang lebih baik terhadap gangguan elektromagnetik sehingga proses pengiriman data menjadi lebih stabil dan cepat. Selain itu, fiber optik bekerja berdasarkan prinsip indeks bias cahaya, yaitu perbandingan antara kecepatan cahaya di ruang hampa dengan kecepatan cahaya saat melewati medium tertentu. Prinsip inilah yang memungkinkan cahaya tetap merambat di dalam serat optik tanpa keluar dari jalurnya.<br><br>
+
+    <b>Perkembangan fiber optik dari masa ke masa:</b><br>
+    &#8226; <b>Tahun 1840 :</b> Para ilmuwan mulai meneliti prinsip pemantulan cahaya. Penelitian ini menunjukkan bahwa cahaya dapat dipantulkan dan diarahkan melalui media tertentu. Prinsip tersebut menjadi dasar teknologi fiber optik.<br>
+    &#8226; <b>Tahun 1960 :</b> Teknologi laser ditemukan dan mulai digunakan sebagai sumber cahaya. Penemuan ini sangat penting karena cahaya laser mampu mengirimkan data dengan lebih cepat dan stabil melalui serat optik.<br>
+    &#8226; <b>Tahun 1970 :</b> Fiber optik mulai dikembangkan sebagai media komunikasi. Pada masa ini, para peneliti berhasil menciptakan kabel fiber optik dengan kualitas transmisi yang lebih baik sehingga dapat digunakan untuk mengirim informasi jarak jauh.<br>
+    &#8226; <b>Tahun 1980 :</b> Fiber optik mulai digunakan pada jaringan telepon dan sistem telekomunikasi. Teknologi ini membantu meningkatkan kualitas komunikasi karena memiliki kecepatan tinggi dan gangguan sinyal yang lebih kecil dibanding kabel tembaga.<br>
+    &#8226; <b>Sekarang :</b> Fiber optik digunakan secara luas untuk jaringan internet berkecepatan tinggi, telekomunikasi, data center, TV kabel, hingga jaringan modern lainnya. Teknologi ini menjadi bagian penting dalam perkembangan transformasi digital dan komunikasi global.<br><br>
+    Perkembangan fiber optik menunjukkan bahwa teknologi komunikasi terus mengalami kemajuan dari waktu ke waktu. Dari penelitian sederhana tentang cahaya hingga menjadi teknologi internet modern, fiber optik kini berperan penting dalam mendukung kebutuhan komunikasi dan pertukaran data yang cepat, stabil, dan efesien.
+]]></string>
+    <string name="title_materi_2">Karakteristik &amp; Fungsi Fiber Optik</string>
+
+    <string name="isi_materi_2"><![CDATA[
+    <b>1. KARAKTERISTIK FIBER OPTIK</b><br><br>
+    Berikut adalah rincian karakteristik utama dari kabel fiber optik:<br>
+    <b>Kecepatan dan Bandwidth Tinggi:</b> Mampu mencapai kecepatan gigabit hingga terabit per detik, jauh lebih besar dibanding kabel tembaga.<br>
+    <b>Transmisi Berbasis Cahaya:</b> Data dikirim dalam bentuk pulsa cahaya yang dikonversi dari sinyal listrik melalui transmitter.<br>
+    <b>Kebal Interferensi Elektromagnetik (EMI):</b> Tidak terpengaruh oleh gangguan elektromagnetik, medan magnet, atau korosi.<br>
+    <b>Jarak Transmisi Jauh:</b> Sinyal dapat merambat sangat jauh (antara 2 hingga 60 km) tanpa memerlukan banyak penguat sinyal (repeater).<br>
+    <b>Keamanan Data Tinggi:</b> Sangat sulit disadap karena tidak memancarkan radiasi elektromagnetik saat beroperasi.<br>
+    <b>Ukuran Kecil dan Ringan:</b> Memiliki diameter serat yang sangat kecil dan fleksibel, memudahkan instalasi di ruang terbatas.<br>
+    <b>Struktur Kabel:</b> Secara fisik terdiri dari <i>core</i> (inti serat kaca/plastik), <i>cladding</i> (lapisan pelindung inti), dan <i>coating</i> (pelindung mekanis).<br><br><br>
+
+    <b>2. FUNGSI FIBER OPTIK</b><br><br>
+    Fiber Optik memiliki peranan penting dalam jaringan modern untuk memastikan proses komunikasi menjadi lebih cepat, stabil, dan efisien. Berikut adalah fungsi detailnya:<br><br>
+
+    <b>a. Menggiring Data dengan Cepat</b><br>
+    Menggunakan cahaya membuat proses transfer data instan. Kecepatan tinggi ini sangat dibutuhkan untuk:<br>
+    &#8226; Mengakses internet cepat dan mengunduh file besar.<br>
+    &#8226; Kelancaran video conference dan streaming video tanpa buffering.<br>
+    &#8226; Bermain game online tanpa gangguan lag.<br><br>
+
+    <b>b. Menghubungkan Jaringan Jarak Jauh</b><br>
+    Sinyal dapat dikirim melintasi wilayah luas tanpa penurunan kualitas yang berarti. Digunakan untuk:<br>
+    &#8226; Menghubungkan jaringan komputer antar kota dan antar pulau.<br>
+    &#8226; Kabel bawah laut internet internasional antar negara.<br><br>
+
+    <b>c. Menyediakan Koneksi Internet Stabil</b><br>
+    Kualitas sinyal terjaga dengan baik karena tidak terpengaruh oleh perubahan cuaca ekstrem maupun interferensi frekuensi radio di sekitarnya.<br><br>
+
+    <b>d. Digunakan dalam Industri Telekomunikasi</b><br>
+    Menjadi pilihan utama perusahaan penyedia jaringan telepon, televisi kabel, dan pusat data (data center) karena efisiensi kapasitasnya.<br><br>
+
+    <b>e. Mendukung Perkembangan Teknologi Digital</b><br>
+    Menjadi pondasi utama infrastruktur modern seperti cloud computing, ekosistem Internet of Things (IoT), smart city, hingga perluasan jaringan 5G.<br><br><br>
+
+    <b>3. KELEBIHAN FIBER OPTIK</b><br><br>
+    &#8226; Kecepatan transfer data sangat tinggi<br>
+    &#8226; Kapasitas bandwidth yang luar biasa besar<br>
+    &#8226; Jarak jangkauan pengiriman data sangat jauh<br>
+    &#8226; Tahan terhadap interferensi dan gangguan cuaca<br>
+    &#8226; Ukuran fisik kabel cenderung kecil dan ringan<br>
+    &#8226; Sistem keamanan data jauh lebih aman dari penyadapan<br><br><br>
+
+    <b>4. KEKURANGAN FIBER OPTIK</b><br><br>
+    &#8226; Harga kabel dan perangkat pendukung relatif mahal<br>
+    &#8226; Proses instalasi dan penyambungan (splicing) cukup rumit<br>
+    &#8226; Struktur serat kaca di dalamnya mudah patah jika ditekuk terlalu tajam<br>
+    &#8226; Membutuhkan alat khusus dan teknisi ahli untuk pemasangannya
+]]></string>
+    <string name="title_materi_3">Struktur &amp; Perangkat Fiber Optik</string>
+
+    <string name="isi_materi_3"><![CDATA[
+    <b>1. STRUKTUR KABEL FIBER OPTIK</b><br><br>
+    Fiber Optik terdiri dari beberapa bagian utama yang memiliki fungsi berbeda-beda. Setiap bagian bekerja bersama untuk membantu proses pengiriman data dalam bentuk cahaya agar dapat berjalan dengan cepat dan stabil. Struktur fiber optik dirancang secara khusus supaya cahaya dapat tetap berada di dalam kabel tanpa mengalami banyak kehilangan sinyal. Berikut penjelasan struktur kabel fiber optik secara detail:<br><br>
+
+    <b>A. Core (Inti Kabel)</b><br>
+    Core adalah bagian paling utama dari fiber optik karena menjadi tempat jalannya cahaya yang membawa data. Core terletak di bagian tengah kabel fiber optik dan berbentuk sangat kecil seperti serat halus. Fungsi utama core adalah sebagai jalur transmisi cahaya. Semua data yang dikirim melalui fiber optik akan melewati bagian ini dalam bentuk sinyal cahaya.<br><br>
+
+    <b>Ciri-Ciri Core</b><br>
+    &#8226; Terbuat dari kaca atau plastik berkualitas tinggi<br>
+    &#8226; Memiliki bentuk sangat tipis<br>
+    &#8226; Menjadi jalur utama perambatan cahaya<br>
+    &#8226; Memiliki diameter sangat kecil<br><br>
+    Diameter core biasanya diukur dalam satuan mikrometer. Semakin kecil diameter core, maka cahaya akan bergerak lebih terarah. Cara Kerja Core yaitu ketika data dikirim, perangkat pengirim akan mengubah data menjadi cahaya. Cahaya tersebut kemudian berjalan melalui core menuju tujuan. Karena core dibuat dari bahan khusus yang sangat jernih, cahaya dapat merambat dengan cepat dan minim gangguan.<br><br>
+
+    <b>B. Cladding</b><br>
+    Cladding adalah lapisan yang mengelilingi core. Lapisan ini memiliki indeks bias yang berbeda dengan core sehingga mampu memantulkan cahaya kembali ke dalam inti kabel.<br><br>
+
+    <b>Fungsi Cladding</b><br>
+    &#8226; Memantulkan cahaya kembali ke core<br>
+    &#8226; Menjaga cahaya tetap berada di jalurnya<br>
+    &#8226; Mengurangi kehilangan sinyal cahaya<br><br>
+    Cara Kerja Cladding yaitu Saat cahaya bergerak di dalam core, sebagian cahaya dapat bergerak menuju pinggir kabel. Cladding akan memantulkan cahaya tersebut kembali ke core menggunakan prinsip pemantulan total internal. Dengan adanya cladding, cahaya tidak keluar dari kabel sehingga proses transmisi data menjadi lebih efisien.<br><br>
+
+    <b>Karakteristik Cladding</b><br>
+    &#8226; Terbuat dari bahan kaca khusus<br>
+    &#8226; Mengelilingi seluruh bagian core<br>
+    &#8226; Memiliki indeks bias lebih rendah dibanding core<br><br>
+    Cladding sangat penting karena tanpa lapisan ini cahaya akan keluar dari kabel dan data tidak dapat dikirim dengan baik.<br><br>
+
+    <b>C. Coating</b><br>
+    Coating adalah lapisan pelindung yang berada di luar cladding. Lapisan ini berfungsi melindungi kabel fiber optik dari kerusakan fisik.<br><br>
+
+    <b>Fungsi Coating</b><br>
+    &#8226; Melindungi fiber optik dari benturan<br>
+    &#8226; Menjaga kabel agar tidak mudah rusak<br>
+    &#8226; Melindungi dari kelembapan dan tekanan<br>
+    &#8226; Membantu kabel tetap lentur<br><br>
+
+    <b>Karakteristik Coating</b><br>
+    &#8226; Terbuat dari bahan plastik elastis<br>
+    &#8226; Bersifat fleksibel<br>
+    &#8226; Menutupi bagian cladding<br><br>
+    Karena core dan cladding sangat tipis dan mudah rusak, coating diperlukan agar kabel tetap aman saat dipasang atau digunakan. Pentingnya Coating yaitu Jika coating rusak, maka bagian dalam fiber optik dapat terganggu dan menyebabkan kualitas transmisi data menurun.<br><br>
+
+    <b>D. Jacket</b><br>
+    Jacket adalah lapisan paling luar dari kabel fiber optik. Lapisan ini menjadi pelindung utama seluruh struktur kabel.<br><br>
+
+    <b>Fungsi Jacket</b><br>
+    &#8226; Melindungi seluruh bagian kabel<br>
+    &#8226; Menjaga kabel dari panas dan air<br>
+    &#8226; Melindungi dari gangguan lingkungan<br>
+    &#8226; Menambah kekuatan kabel<br><br>
+
+    <b>Karakteristik Jacket</b><br>
+    &#8226; Terbuat dari bahan plastik kuat<br>
+    &#8226; Memiliki ketahanan terhadap cuaca<br>
+    &#8226; Berfungsi sebagai pelindung luar<br><br>
+    Warna jacket biasanya berbeda-beda sesuai jenis kabel fiber optik. Pentingnya Jacket Karena fiber optik sering dipasang di luar ruangan atau di bawah tanah, jacket sangat diperlukan untuk menjaga kabel tetap aman dari: hujan, panas, debu, maupun tekanan fisik.<br><br><br>
+
+    <b>2. PERANGKAT PENDUKUNG FIBER OPTIK</b><br>
+    a. Optical Transmitter yaitu mengubah data menjadi cahaya.<br>
+    b. Optical Receiver yaitu mengubah cahaya menjadi data.<br>
+    c. Connector yaitu menghubungkan kabel fiber optik.<br>
+    d. Splicer yaitu menyambungkan kabel fiber optik.<br><br><br>
+
+    <b>3. PENERAPAN FIBER OPTIK</b><br>
+    Fiber optik digunakan di berbagai bidang. Contoh Penggunaan:<br>
+    &#8226; Internet rumah<br>
+    &#8226; Telekomunikasi<br>
+    &#8226; TV kabel<br>
+    &#8226; Data center<br>
+    &#8226; Jaringan sekolah<br>
+    &#8226; CCTV<br>
+    &#8226; Jaringan perusahaan<br><br><br>
+
+    <b>4. FIBER OPTIK IN KEHIDUPAN SEHARI-HARI</b><br>
+    Contoh penggunaan:<br>
+    &#8226; Streaming video<br>
+    &#8226; Game online<br>
+    &#8226; Video conference<br>
+    &#8226; Media sosial<br>
+    &#8226; WiFi rumah<br><br><br>
+
+    <b>5. PERMASALAHAN FIBER OPTIK</b><br>
+    Beberapa masalah yang sering terjadi:<br>
+    &#8226; Kabel putus<br>
+    &#8226; Konektor kotor<br>
+    &#8226; Instalasi tidak tepat<br>
+    &#8226; Cahaya melemah<br><br><br>
+
+    <b>6. PERAWATAN FIBER OPTIK</b><br>
+    Cara merawat:<br>
+    &#8226; Hindari kabel tertekuk<br>
+    &#8226; Bersihkan konektor<br>
+    &#8226; Simpan dengan baik<br>
+    &#8226; Gunakan pelindung kabel<br><br><br>
+
+    <b>7. DAMPAK PERKEMBANGAN FIBER OPTIK</b><br>
+    <b>Dampak Positif</b><br>
+    &#8226; Internet lebih cepat<br>
+    &#8226; Komunikasi lebih mudah<br>
+    &#8226; Mendukung transformasi digital<br><br>
+    <b>Dampak Negatif</b><br>
+    &#8226; Biaya pembangunan mahal<br>
+    &#8226; Membutuhkan tenaga ahli<br>
+]]></string>
+    <string name="title_materi_4">4. Serat Optik</string>
+
+    <string name="isi_materi_4"><![CDATA[
+        <b>FIBER OPTIK (SERAT OPTIK)</b><br><br>
+        Fiber optik adalah teknologi transmisi data yang menggunakan serat kaca atau plastik sangat tipis untuk mengirimkan informasi dalam bentuk cahaya. Teknologi ini digunakan dalam jaringan telekomunikasi modern karena mampu mengirim data dengan kecepatan sangat tinggi dan jarak yang jauh.<br><br>
+        Media transmisi jaringan ini memanfaatkan cahaya sebagai pembawa sinyal data yang dikirim melalui serat optik yang sangat halus, sehingga data dapat ditransmisikan dengan cepat dan stabil. Fiber optik banyak digunakan pada jaringan internet, televisi kabel, serta jaringan komunikasi antar kota atau antar negara.<br><br><br>
+
+        <b>A. STRUKTUR KABEL FIBER OPTIK</b><br><br>
+        Kabel fiber optik terdiri dari beberapa bagian utama:<br><br>
+        <b>1. Core (Inti)</b><br>
+        Bagian tengah kabel yang terbuat dari kaca sangat halus dan berfungsi sebagai jalur utama merambatnya cahaya.<br><br>
+        <b>2. Cladding</b><br>
+        Lapisan yang mengelilingi core dan berfungsi memantulkan cahaya agar tetap berada di dalam jalur core.<br><br>
+        <b>3. Coating (Pelindung)</b><br>
+        Lapisan pelindung luar yang menjaga serat optik dari kerusakan fisik dan cuaca.<br><br><br>
+
+        <b>B. CARA KERJA FIBER OPTIK</b><br><br>
+        Proses pengiriman data menggunakan fiber optik adalah sebagai berikut:<br>
+        &#8226; Data dari komputer/jaringan diubah menjadi sinyal cahaya.<br>
+        &#8226; Cahaya dikirim melalui serat optik (core).<br>
+        &#8226; Cahaya dipantulkan oleh lapisan cladding agar tidak keluar dan tetap berada di dalam serat.<br>
+        &#8226; Sinyal cahaya diterima di ujung kabel tujuan dan diubah kembali menjadi data digital.<br><br><br>
+
+        <b>C. JENIS-JENIS FIBER OPTIK</b><br><br>
+        Fiber optik dibagi menjadi dua jenis utama:<br><br>
+        <b>1. Single Mode Fiber (SMF)</b><br>
+        Digunakan untuk komunikasi jarak jauh (antar kota/negara) dan memiliki ukuran inti (core) yang sangat kecil sehingga cahaya merambat lurus.<br><br>
+        <b>2. Multi Mode Fiber (MMF)</b><br>
+        Digunakan untuk komunikasi jarak yang lebih pendek (seperti jaringan LAN dalam gedung) dan memiliki ukuran inti yang lebih besar.<br><br><br>
+
+        <b>D. KELEBIHAN &amp; KEKURANGAN FIBER OPTIK</b><br><br>
+        <b>Kelebihan:</b><br>
+        &#8226; Kecepatan transfer data sangat tinggi (bisa mencapai hitungan Tbps)<br>
+        &#8226; Dapat digunakan untuk jarak bentangan yang sangat jauh<br>
+        &#8226; Aman dan tidak mudah terganggu oleh gangguan sinyal elektromagnetik/petir<br>
+        &#8226; Kualitas sinyal jauh lebih stabil dibandingkan kabel tembaga<br><br>
+
+        <b>Kekurangan:</b><br>
+        &#8226; Biaya instalasi dan perangkat kerasnya cukup mahal<br>
+        &#8226; Proses pemasangan dan perawatan membutuhkan alat dan teknisi khusus (splicing)<br>
+        &#8226; Kabel lebih sensitif terhadap tekukan tajam (kaca di dalamnya bisa patah)
+    ]]></string>
+
+    <string name="title_materi_5">5. Internet of Things (IoT)</string>
+
+    <string name="isi_materi_5"><![CDATA[
+        <b>INTERNET OF THINGS (IOT)</b><br><br>
+        Internet of Things (IoT) adalah konsep teknologi yang menghubungkan berbagai perangkat fisik ke internet sehingga perangkat tersebut dapat mengirim, menerima, dan bertukar data secara otomatis tanpa harus selalu dikendalikan oleh manusia.<br><br>
+        Istilah IoT menggambarkan jaringan benda atau perangkat yang memiliki sensor, perangkat lunak, dan teknologi lain untuk saling berkomunikasi dan bekerja secara otomatis. Contohnya seperti lampu pintar (smart bulb), kamera CCTV online, smartwatch, dan sistem smart home.<br><br><br>
+
+        <b>A. CARA KERJA IOT</b><br><br>
+        Cara kerja Internet of Things secara umum adalah melalui tahapan berikut:<br>
+        &#8226; <b>1. Mengumpulkan Data:</b> Sensor atau perangkat mengumpulkan data dari lingkungan sekitar (misalnya sensor suhu ruangan atau sensor gerak).<br>
+        &#8226; <b>2. Mengirim Data:</b> Data tersebut dikirimkan melalui jaringan internet menuju server atau sistem <i>cloud computing</i>.<br>
+        &#8226; <b>3. Memproses Data:</b> Server/sistem akan menganalisis dan memproses data yang diterima.<br>
+        &#8226; <b>4. Melakukan Tindakan:</b> Perangkat melakukan tindakan otomatis berdasarkan hasil analisis (misalnya otomatis menyalakan lampu saat gelap atau mengirim notifikasi ke HP pengguna).<br><br><br>
+
+        <b>B. KOMPONEN PENTING SISTEM IOT</b><br><br>
+        <b>1. Perangkat / Sensor</b><br>
+        Berfungsi sebagai "indra" untuk mendeteksi dan mengumpulkan data dari lingkungan fisik.<br><br>
+        <b>2. Koneksi Internet</b><br>
+        Berfungsi sebagai "jalan tol" yang digunakan untuk mengirimkan data dari perangkat ke server.<br><br>
+        <b>3. Sistem Pengolahan Data (Cloud/Server)</b><br>
+        Berfungsi sebagai "otak" yang menampung dan memproses data yang diterima dari sensor.<br><br>
+        <b>4. User Interface (Aplikasi)</b><br>
+        Layar atau aplikasi (biasanya di HP/Laptop) yang digunakan oleh pengguna untuk memonitor atau mengontrol perangkat secara jarak jauh.<br><br><br>
+
+        <b>C. CONTOH PENGGUNAAN IOT</b><br><br>
+        Dalam kehidupan sehari-hari, IoT sudah banyak diterapkan pada:<br>
+        &#8226; <b>Smart Home:</b> Mengontrol lampu, AC, dan pintu rumah via HP.<br>
+        &#8226; <b>Smartwatch:</b> Memantau detak jantung dan kualitas tidur.<br>
+        &#8226; <b>Smart City:</b> Pengelolaan lampu jalan dan tata kota otomatis.<br>
+        &#8226; <b>Sistem Parkir Otomatis:</b> Mendeteksi slot parkir kosong.<br>
+        &#8226; <b>Smart Agriculture:</b> Monitoring kelembapan tanah untuk pertanian.<br><br><br>
+
+        <b>D. KELEBIHAN &amp; KEKURANGAN IOT</b><br><br>
+        <b>Kelebihan:</b><br>
+        &#8226; Mempermudah pekerjaan manusia menjadi lebih praktis<br>
+        &#8226; Menghemat waktu dan energi listrik<br>
+        &#8226; Sistem dapat bekerja nonstop secara otomatis<br>
+        &#8226; Meningkatkan efisiensi di berbagai bidang (industri, kesehatan, rumah tangga)<br><br>
+
+        <b>Kekurangan:</b><br>
+        &#8226; Sangat bergantung pada koneksi internet yang stabil<br>
+        &#8226; Memiliki risiko keamanan data (mudah diretas jika sistem keamanannya lemah)<br>
+        &#8226; Biaya perangkat cerdas dan biaya instalasinya masih tergolong tinggi
+    ]]></string>
+
+    <string name="title_materi_6">6. Data Center</string>
+
+    <string name="isi_materi_6"><![CDATA[
+        <b>DATA CENTER (PUSAT DATA)</b><br><br>
+        Data Center adalah fasilitas atau tempat yang digunakan untuk menyimpan, mengelola, dan memproses data serta aplikasi komputer dalam jumlah besar. Fasilitas ini berisi berbagai perangkat keras seperti server, sistem penyimpanan data (storage), dan perangkat jaringan yang bekerja bersama untuk menjalankan layanan digital.<br><br>
+        Data center biasanya digunakan oleh perusahaan, organisasi pemerintah, dan penyedia layanan internet untuk mengelola data terpusat dan menjalankan sistem informasi dengan aman dan non-stop.<br><br><br>
+
+        <b>A. FUNGSI UTAMA DATA CENTER</b><br><br>
+        Fungsi utama dibangunnya sebuah data center yaitu:<br>
+        &#8226; <b>Menyimpan Data:</b> Menyimpan berbagai data penting perusahaan seperti database pelanggan, file, dan aplikasi.<br>
+        &#8226; <b>Memproses Data:</b> Server di dalam data center memproses jutaan permintaan dari pengguna internet setiap detiknya.<br>
+        &#8226; <b>Menyediakan Layanan Jaringan:</b> Menyediakan infrastruktur untuk layanan seperti website, email, cloud computing, dan aplikasi online.<br>
+        &#8226; <b>Menjaga Keamanan Data:</b> Dilengkapi dengan sistem keamanan fisik dan digital tingkat tinggi untuk melindungi data dari kerusakan, bencana alam, atau serangan siber (hacker).<br><br><br>
+
+        <b>B. KOMPONEN PENTING DATA CENTER</b><br><br>
+        Sebuah data center skala besar terdiri dari beberapa komponen kritis penyusunnya:<br><br>
+        <b>1. Server</b><br>
+        Perangkat komputer berkinerja tinggi yang digunakan untuk menyimpan dan memproses data secara terus-menerus.<br><br>
+        <b>2. Storage (Penyimpanan Data)</b><br>
+        Perangkat khusus (seperti SAN/NAS) yang digunakan untuk menyimpan data dalam jumlah yang sangat masif.<br><br>
+        <b>3. Network Devices (Perangkat Jaringan)</b><br>
+        Perangkat seperti router, switch, dan firewall yang menghubungkan antar-server maupun menghubungkan server dengan jaringan internet global.<br><br>
+        <b>4. Power Supply (Sumber Daya Listrik)</b><br>
+        Sistem kelistrikan cadangan (seperti UPS dan Generator) yang memastikan semua perangkat tetap menyala stabil meski listrik utama padam.<br><br>
+        <b>5. Cooling System (Sistem Pendingin)</b><br>
+        Sistem pendingin (AC Presisi) untuk menjaga suhu perangkat keras agar tidak terlalu panas (overheat) yang bisa memicu kerusakan atau kebakaran.<br><br><br>
+
+        <b>C. JENIS-JENIS DATA CENTER</b><br><br>
+        Berdasarkan kepemilikannya, data center dibagi menjadi:<br><br>
+        <b>1. Enterprise Data Center</b><br>
+        Fasilitas yang dibangun, dimiliki, dan dioperasikan secara mandiri oleh sebuah perusahaan untuk kebutuhan internal mereka sendiri.<br><br>
+        <b>2. Colocation Data Center</b><br>
+        Penyedia layanan menyewakan tempat, listrik, dan pendingin bagi perusahaan lain untuk menempatkan server milik mereka (sewa rak/space).<br><br>
+        <b>3. Cloud Data Center</b><br>
+        Data center berskala masif yang digunakan untuk menyediakan layanan komputasi awan (cloud) ke publik, seperti Amazon Web Services (AWS) atau Google Cloud.<br><br><br>
+
+        <b>D. KELEBIHAN DATA CENTER</b><br><br>
+        &#8226; Kapasitas penyimpanan data yang sangat besar dan dapat ditingkatkan (scalable)<br>
+        &#8226; Sistem keamanan data yang sangat tangguh secara fisik maupun cyber<br>
+        &#8226; Mendukung kelancaran berbagai layanan digital 24 jam nonstop<br>
+        &#8226; Kinerja jaringan sangat stabil dengan dukungan bandwidth super besar
+    ]]></string>
+
+    <string name="title_materi_7">7. Cloud Computing</string>
+
+    <string name="isi_materi_7"><![CDATA[
+        <b>CLOUD COMPUTING (KOMPUTASI AWAN)</b><br><br>
+        Cloud Computing adalah teknologi yang memungkinkan pengguna untuk mengakses layanan komputer (seperti penyimpanan data, server, aplikasi, dan jaringan) melalui internet tanpa harus memiliki perangkat keras fisik sendiri.<br><br>
+        Dengan teknologi ini, data dan aplikasi disimpan di server yang berada di dalam sebuah Data Center. Hal ini memungkinkan pengguna untuk mengakses sumber daya teknologi informasi tersebut kapan saja dan dari mana saja, asalkan terhubung ke internet. Pengguna tidak perlu membeli server atau perangkat mahal karena semua infrastruktur telah disediakan dan dikelola oleh penyedia layanan cloud.<br><br><br>
+
+        <b>A. CARA KERJA CLOUD COMPUTING</b><br><br>
+        Secara umum, alur kerja cloud computing adalah sebagai berikut:<br>
+        &#8226; Pengguna mengakses layanan atau aplikasi melalui internet.<br>
+        &#8226; Permintaan tersebut dikirimkan ke server cloud yang berada di data center.<br>
+        &#8226; Server memproses data atau menjalankan aplikasi yang diminta oleh pengguna.<br>
+        &#8226; Hasil pemrosesan dikirimkan kembali ke layar perangkat pengguna dalam hitungan milidetik.<br><br><br>
+
+        <b>B. JENIS LAYANAN CLOUD COMPUTING</b><br><br>
+        Layanan komputasi awan umumnya dibagi menjadi tiga model utama:<br><br>
+        <b>1. Infrastructure as a Service (IaaS)</b><br>
+        Penyedia menyewakan infrastruktur dasar IT seperti server virtual, jaringan, dan ruang penyimpanan data (storage) kepada pengguna.<br><br>
+        <b>2. Platform as a Service (PaaS)</b><br>
+        Menyediakan platform dan lingkungan (framework) yang siap pakai bagi para developer untuk mengembangkan, menguji, dan mengelola aplikasi.<br><br>
+        <b>3. Software as a Service (SaaS)</b><br>
+        Menyediakan perangkat lunak (aplikasi) yang sudah jadi dan dapat langsung digunakan oleh pengguna akhir melalui internet (web browser).<br><br><br>
+
+        <b>C. CONTOH LAYANAN CLOUD COMPUTING</b><br><br>
+        Beberapa layanan cloud yang sangat sering kita gunakan sehari-hari:<br>
+        &#8226; <b>Google Drive:</b> Untuk penyimpanan dan sinkronisasi file.<br>
+        &#8226; <b>Dropbox:</b> Untuk backup dan berbagi file online.<br>
+        &#8226; <b>Microsoft OneDrive:</b> Penyimpanan data online yang terintegrasi dengan ekosistem Microsoft.<br><br><br>
+
+        <b>D. KELEBIHAN &amp; KEKURANGAN CLOUD COMPUTING</b><br><br>
+        <b>Kelebihan:</b><br>
+        &#8226; Data dan aplikasi dapat diakses dari mana saja dan kapan saja<br>
+        &#8226; Sangat hemat biaya karena tidak perlu membeli dan merawat server fisik sendiri<br>
+        &#8226; Kapasitas penyimpanan data sangat fleksibel (bisa ditambah/dikurangi sesuai kebutuhan)<br>
+        &#8226; Biaya operasional IT perusahaan menjadi lebih efisien<br><br>
+
+        <b>Kekurangan:</b><br>
+        &#8226; Sangat bergantung pada ketersediaan koneksi internet yang stabil<br>
+        &#8226; Memiliki risiko keamanan dan privasi data jika penyedia cloud tidak kredibel<br>
+        &#8226; Ketergantungan penuh (vendor lock-in) pada kebijakan dan sistem penyedia layanan cloud
+    ]]></string>
+
+    <string name="title_materi_8">8. Keamanan &amp; Penetrasi</string>
+
+    <!-- Video Strings -->
+    <string name="video_title_1">Teknologi Fiber Optik</string>
+    <string name="video_desc_1">Video ini menjelaskan tentang dasar-dasar teknologi fiber optik, bagaimana cahaya merambat di dalam inti kaca, dan keunggulannya dalam komunikasi data.</string>
+    <string name="video_title_short_1">Dasar Teknologi Fiber Optik</string>
+
+    <string name="video_title_2">Simulasi Jaringan</string>
+    <string name="video_desc_2">Video simulasi ini menunjukkan proses instalasi dan cara kerja penyambungan kabel fiber optik (splicing) serta pengujian sinyal dalam jaringan.</string>
+    <string name="video_title_short_2">Simulasi Penyambungan Kabel</string>
+
+    <string name="video_title_3">Apa itu Internet of Things (IoT)?</string>
+    <string name="video_desc_3">Penjelasan mendalam mengenai konsep Internet of Things, bagaimana perangkat saling terhubung, dan manfaatnya dalam kehidupan sehari-hari.</string>
+    <string name="video_title_short_3">Konsep Dasar IoT</string>
+
+    <string name="video_title_4">Dasar-Dasar Cloud Computing</string>
+    <string name="video_desc_4">Mengenal teknologi komputasi awan, jenis-jenis layanan cloud (SaaS, PaaS, IaaS), dan bagaimana data disimpan di internet.</string>
+    <string name="video_title_short_4">Cloud Computing</string>
+
+    <string name="video_title_5">Mengenal Data Center</string>
+    <string name="video_desc_5">Tur virtual dan penjelasan mengenai infrastruktur pusat data, tempat di mana ribuan server mengelola informasi global secara aman.</string>
+    <string name="video_title_short_5">Infrastruktur Data Center</string>
+
+    <string name="video_title_6">Memahami Alamat IP (IP Address)</string>
+    <string name="video_desc_6">Belajar tentang identitas perangkat dalam jaringan, perbedaan IPv4 dan IPv6, serta bagaimana data dikirim tepat sasaran.</string>
+    <string name="video_title_short_6">Alamat IP &amp; Subnetting</string>
+
+    <string name="video_title_7">Cara Kerja Microwave Link</string>
+    <string name="video_desc_7">Menjelaskan sistem komunikasi radio gelombang mikro yang digunakan untuk menghubungkan dua titik tanpa kabel (Line of Sight).</string>
+    <string name="video_title_short_7">Teknologi Microwave Link</string>
+
+    <string name="video_title_8">Evolusi Jaringan Telekomunikasi</string>
+    <string name="video_desc_8">Menelusuri sejarah perkembangan jaringan seluler dari generasi awal hingga teknologi masa depan yang lebih cepat dan efisien.</string>
+    <string name="video_title_short_8">Sejarah Telekomunikasi</string>
+
+    <string name="isi_materi_8"><![CDATA[
+        <b>1. KEAMANAN INFORMASI (INFORMATION SECURITY)</b><br><br>
+        <i>Information Security</i> atau keamanan informasi adalah upaya untuk melindungi data dan sistem informasi dari akses yang tidak sah, penyalahgunaan, kerusakan, modifikasi, atau pencurian.<br><br>
+        Keamanan informasi sangat krusial dalam dunia teknologi digital karena banyak data sensitif (seperti data pribadi, rahasia perusahaan, dan data keuangan) yang disimpan dan ditransmisikan melalui sistem komputer dan jaringan internet.<br><br><br>
+
+        <b>A. TUJUAN KEAMANAN INFORMASI (CIA TRIAD)</b><br><br>
+        Tujuan utama dari keamanan informasi adalah menjaga tiga aspek fundamental yang dikenal sebagai <b>CIA Triad</b>, yaitu:<br>
+        <b>1. Confidentiality (Kerahasiaan)</b><br>
+        Menjamin bahwa data atau informasi rahasia hanya dapat diakses oleh pihak yang memiliki hak (otorisasi).<br>
+        <b>2. Integrity (Keutuhan)</b><br>
+        Menjamin bahwa data tidak boleh diubah, dirusak, atau dimanipulasi oleh pihak yang tidak berwenang.<br>
+        <b>3. Availability (Ketersediaan)</b><br>
+        Menjamin bahwa data dan sistem informasi harus selalu dapat diakses dan tersedia saat dibutuhkan oleh pengguna yang sah.<br><br><br>
+
+        <b>B. ANCAMAN &amp; CARA PENCEGAHAN</b><br><br>
+        <b>Ancaman yang sering mengganggu keamanan informasi:</b><br>
+        &#8226; Virus dan Malware (Perangkat lunak berbahaya)<br>
+        &#8226; Hacker (Peretas jaringan)<br>
+        &#8226; Phishing (Penipuan manipulasi psikologis untuk mencuri data)<br>
+        &#8226; Pencurian dan kebocoran data<br><br>
+
+        <b>Cara menjaga keamanan informasi:</b><br>
+        &#8226; Menggunakan password yang kuat (kombinasi huruf, angka, simbol)<br>
+        &#8226; Menginstal dan memperbarui Antivirus<br>
+        &#8226; Melakukan <i>backup</i> data secara rutin<br>
+        &#8226; Menggunakan Firewall untuk menyaring lalu lintas jaringan<br>
+        &#8226; Menghindari klik tautan (link) atau lampiran email yang mencurigakan<br><br><br>
+
+        <b>2. PENETRASI INTERNET</b><br><br>
+        <i>Internet Penetration</i> adalah tingkat persentase penggunaan atau penyebaran akses internet di suatu wilayah atau negara tertentu. Angka ini menunjukkan berapa banyak penduduk yang memiliki akses dan aktif menggunakan internet dibandingkan dengan jumlah total populasi penduduk di wilayah tersebut.<br><br>
+
+        <b>Cara Menghitung Penetrasi Internet:</b><br>
+        Penetrasi internet biasanya dinyatakan dalam bentuk persentase menggunakan rumus sederhana berikut:<br>
+        <b>Penetrasi Internet = (Jumlah Pengguna Internet / Jumlah Penduduk) x 100%</b><br><br><br>
+
+        <b>A. FAKTOR YANG MEMPENGARUHI PENETRASI INTERNET</b><br><br>
+        &#8226; Infrastruktur jaringan (ketersediaan BTS, fiber optik)<br>
+        &#8226; Ketersediaan perangkat teknologi (HP, Komputer)<br>
+        &#8226; Biaya akses internet (kuota/WiFi yang terjangkau)<br>
+        &#8226; Tingkat pendidikan dan literasi digital masyarakat<br>
+        &#8226; Dukungan pemerintah dan perkembangan teknologi<br><br><br>
+
+        <b>B. MANFAAT TINGGINYA PENETRASI INTERNET</b><br><br>
+        &#8226; Mempermudah akses informasi secara global<br>
+        &#8226; Mendukung kegiatan pendidikan dan pembelajaran jarak jauh<br>
+        &#8226; Meningkatkan perkembangan ekonomi digital (E-Commerce)<br>
+        &#8226; Mempermudah komunikasi tanpa batas ruang dan waktu<br><br><br>
+
+        <b>KESIMPULAN</b><br><br>
+        Keamanan informasi merupakan pilar utama untuk melindungi data dan sistem dari ancaman siber yang dapat merusak atau mencuri informasi. Di sisi lain, penetrasi internet adalah tolak ukur yang menunjukkan seberapa luas akses masyarakat terhadap dunia digital. Semakin tinggi penetrasi internet, semakin tinggi pula kebutuhan akan sistem keamanan informasi yang kuat.
+    ]]></string>
+</resources>

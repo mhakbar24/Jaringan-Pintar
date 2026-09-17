@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_main"
+    tools:context=".ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/gradient_main">
+
+            <ImageView
+                android:id="@+id/btn_back_profile"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="16dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="12dp"
+                android:src="@android:drawable/ic_menu_revert"
+                app:tint="#FFFFFF" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="sans-serif-black"
+                android:text="Profil Pengembang"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:shadowColor="#40000000"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="4" />
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-90dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/foto_profil" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_card_modern"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Data Diri"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="12dp"/>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="1">
+
+                    <TableRow android:layout_marginBottom="8dp">
+                        <TextView android:text="Nama" android:textStyle="bold" android:paddingEnd="8dp"/>
+                        <TextView android:text=": Widya Safitri" />
+                    </TableRow>
+
+                    <TableRow android:layout_marginBottom="8dp">
+                        <TextView android:text="Prodi" android:textStyle="bold" android:paddingEnd="8dp"/>
+                        <TextView android:text=": Pend. Tek. Informatika dan Komputer" />
+                    </TableRow>
+
+                    <TableRow android:layout_marginBottom="8dp">
+                        <TextView android:text="Institusi" android:textStyle="bold" android:paddingEnd="8dp"/>
+                        <TextView android:text=": Universitas Negeri Medan" />
+                    </TableRow>
+
+                    <TableRow android:layout_marginBottom="8dp">
+                        <TextView android:text="WA" android:textStyle="bold" android:paddingEnd="8dp"/>
+                        <TextView android:text=": 0831-8041-4495" />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView android:text="Email" android:textStyle="bold" android:paddingEnd="8dp"/>
+                        <TextView android:text=": widyasafitri211@gmail.com" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginBottom="60dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_card_modern"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tentang Media"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="4dp"
+                    android:justificationMode="inter_word"
+                    android:text="Widya Safitri merupakan mahasiswa yang mengembangkan media pembelajaran berbasis Android sebagai bagian dari penelitian skripsi. Media ini dibuat untuk membantu proses pembelajaran pada mata pelajaran Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi (DDTJKT) kelas X.\n\nMedia pembelajaran ini dirancang agar siswa dapat belajar dengan lebih mudah, menarik, dan interaktif melalui smartphone, sehingga materi dapat dipelajari kapan saja dan di mana saja. Pengembang berharap media ini dapat menjadi alternatif media pembelajaran yang bermanfaat bagi siswa dan guru."
+                    android:textColor="#444444"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
